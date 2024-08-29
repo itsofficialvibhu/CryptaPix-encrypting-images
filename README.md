@@ -64,7 +64,7 @@ imcrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
 output
 
 ```sh
- imcrypt  v0.0.1 by theninza
+ CryptaPix  v0.0.1 by Vaibhav
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -80,7 +80,7 @@ An image encryption node-js cli
                                   Encrypted image: encryptedImageName.png
                                   Key: keyFile.txt
 
- Give it a star on github:  https://github.com/theninza/imcrypt
+ Give it a star on github:  [https://github.com/theninza/imcrypt](https://github.com/itsofficialvibhu/CryptaPix-encrypting-images)
 ```
 
 ### For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png
@@ -92,7 +92,7 @@ imcrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
 output
 
 ```sh
- imcrypt  v0.0.1 by theninza
+ CryptaPix  v0.0.1 by Vaibhav
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -104,7 +104,7 @@ An image encryption node-js cli
 
                         Decrypted Image: decryptedImage.png
 
- Give it a star on github:  https://github.com/theninza/imcrypt
+ Give it a star on github:  [https://github.com/theninza/imcrypt](https://github.com/itsofficialvibhu/CryptaPix-encrypting-images)
 ```
 
 ## Limitations
