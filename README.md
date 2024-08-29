@@ -1,10 +1,10 @@
-# Imcrypt
+# CryptaPix
 
 A CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and provides you the key to unlock it later so that you have the complete control of your images.
 
-![GitHub package.json version](https://img.shields.io/github/package-json/v/theninza/imcrypt?style=for-the-badge)&nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/theninza/imcrypt?logo=github&style=for-the-badge)
-![npm](https://img.shields.io/npm/dt/imcrypt?style=for-the-badge&logo=npm)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/theninza/CryptaPix?style=for-the-badge)&nbsp;
+![GitHub Repo stars](https://img.shields.io/github/stars/theninza/CryptaPix?logo=github&style=for-the-badge)
+![npm](https://img.shields.io/npm/dt/CryptaPix?style=for-the-badge&logo=npm)
 
 ## Tech-Stack
 
@@ -17,19 +17,19 @@ A CLI that encrypts and decrypts png, jpg, jpeg images to a gibberish image and 
 ## Installation
 
 ```sh
-npm i -g imcrypt
+npm i -g CryptaPix
 ```
 
 ## Usage
 
 ```sh
-imcrypt <command> [option]
+CryptaPix <command> [option]
 ```
 
 or run it directly using npx
 
 ```sh
-npx imcrypt <command> [option]
+npx CryptaPix <command> [option]
 ```
 
 ### commands
@@ -58,13 +58,13 @@ Command
 ### For encrypting an image myImage.png to encryptedImage.png and saving the key to key.txt
 
 ```sh
-imcrypt -e myImage.png -i encryptedImageName.png -p keyFile.txt
+CryptaPix -e myImage.png -i encryptedImageName.png -p keyFile.txt
 ```
 
 output
 
 ```sh
- imcrypt  v0.0.1 by theninza
+ CryptaPix  v0.0.1 by theninza
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -80,19 +80,19 @@ An image encryption node-js cli
                                   Encrypted image: encryptedImageName.png
                                   Key: keyFile.txt
 
- Give it a star on github:  https://github.com/theninza/imcrypt
+ Give it a star on github:  https://github.com/theninza/CryptaPix
 ```
 
 ### For decrypting an image encryptedImage.png with its key key.txt to decryptedImage.png
 
 ```sh
-imcrypt -d encryptedImage.png -k key.txt -i decryptedImage.png
+CryptaPix -d encryptedImage.png -k key.txt -i decryptedImage.png
 ```
 
 output
 
 ```sh
- imcrypt  v0.0.1 by theninza
+ CryptaPix  v0.0.1 by theninza
 An image encryption node-js cli
 
 ✔ Image read successfully
@@ -104,7 +104,7 @@ An image encryption node-js cli
 
                         Decrypted Image: decryptedImage.png
 
- Give it a star on github:  https://github.com/theninza/imcrypt
+ Give it a star on github:  https://github.com/theninza/CryptaPix
 ```
 
 ## Limitations
